@@ -1,0 +1,14 @@
+body{
+    padding: 1%;
+    margin: 0%;
+    font-size: 30px;
+}
+img{
+    width: 40px;
+}
+.noms{
+    float: right;
+}
+div{
+    margin: 1%;
+}

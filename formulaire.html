@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <nav>
+        <a href=""></a>
+    </nav>
+    <form action="traitement.php" method="post">
+    <fieldset id="section1">
+        <legend>Information Personnelle :</legend>
+        <label for="nom">Nom</label>
+        <input type="test" id="nom" name="nom" autocomplete="on" placeholder="" required><br><br>
+        <label for="prenom">Prenom</label>
+        <input type="text" id="nom" name="prenom" autofocus="autofocus" required><br><br>
+        <label for="sexe">Sexe</label><br>
+        <input type="radio" id="feminin" name="sexe" value="feminin">
+        <label for="feminin">feminin</label><br>
+        <input type="radio" id="masculin" name="sexe" value="masculin">
+        <label for="masculin">masculin</label><br><br>
+        <label for="nationalite">Nationalite</label>
+        <select name="nationalite" id="nationalite">nationalite
+            <option value="CAMEROUN">CAMEROUN</option>
+            <option value="GHANA">GHANA</option>
+            <option value="NIGERIA">NIGERIA</option>
+            <option value="CONGO">CONGO</option>
+            <option value="NIGER">NIGER</option>
+        </select><br><br>
+    </fieldset>
+    <fieldset id="section2">
+        <legend>Information supplementaire :</legend> 
+        <span>loisirs</span><br>
+        <input type="checkbox" name="loisirs" value="musique" id="musique">
+        <label for="natation">musique</label>
+        <input type="checkbox" name="loisirs" id="lecture" value="lecture">
+        <label for="lecture">lecture</label>
+        <input type="checkbox" name="loisirs" id="regarder la television" value="regarder la television">
+        <label for="regarder la television">regarder la television</label>
+        <input type="checkbox" name="loisirs" id="football" value="football">
+        <label for="football">football</label>
+        <input type="checkbox" name="loisirs" id="la cuisine" value="la cuisine">
+        <label for="la cuisine">la cuisine</label><br><br>
+    </fieldset>
+    <input type="submit" value="Envoyer">
+    <input type="reset" value="Annuler">
+
+    </form>
+    
+</body>
+</html>

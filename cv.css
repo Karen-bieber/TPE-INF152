@@ -1,0 +1,81 @@
+ body{
+    background-color: grey;
+ }
+ .page{
+    width: 780px;
+    margin:auto;
+    font-family: 'source sans pro', Calibri,Tahoma,sans-serif;
+    font-size: 16px;
+    border: 5px solid #3388cc;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px black;
+    padding: 20px;
+    background-color:white ;
+    
+
+ }
+ .infophoto{
+    height: 250px;
+
+ }
+ .info{
+    float: left;
+
+ }
+ .photo{
+    float: right;
+    
+
+ }
+ .section{
+    margin-bottom: 70px;
+    text-align: justify;
+ }
+ .section:hover{
+    color: #80AA00;
+ }
+ .sec-gauche{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+ }
+ .sec-droite{
+    margin-left: 150px;
+    margin-top: 45px;
+ }
+ h2{
+    font-size: 28px;
+    color: #338888;
+    border-bottom: 3px solid #338800;
+ }
+ .titre{
+    font-weight: bold;
+    font-size: 20px;
+
+ }
+ #forma-gauche p{
+    margin-bottom: 20px;
+
+ }
+ img{
+    width: 150px;
+ }
+ strong{
+    font-size: 22px;
+ }
+ footer{
+   background-color: #343434;
+   padding-top: 50px;
+
+ }
+ .container{
+   width: 780px;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+ }
+ @media (max-width:960px) {
+   
+   
+ }
